@@ -3,13 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LAYOUT CSS GRILD </title>
   <link rel="stylesheet" href="/CSS/marter.css">
+  <link rel="stylesheet" href="./CSS/all.min.css">
+  <title>LAYOUT CSS GRILD </title>
 </head>
 <body>
-<h1>Layout</h1>
 <div class="container">
+<header>
+<div class="logo">
+<img src='./image/logo.png'>
+</div>
 
+<div class="search">
+<input  type="search" id="header-search-input" aria-autocomplete="both" aria-expanded="false" aria-label="" placeholder="" autocapitalize="off" autocomplete="off" class="Bgc(t) Bd Bdrsbstart(2px)! Bdc(#b0b0b0) Bdendw(0) Bdrs(0) Bdrststart(2px)! Bxsh(n) Bxz(bb) D(b) Fz(18px) H(inh) M(0) O(0) Px(10px) W(100%) Bdc($c-fuji-blue-1-c):f Bdc(#949494):h" name="p" data-rapid_p="2" data-v9y="1" role="combobox">
+<button id="header-desktop-search-button" class="Bgc(#5701ed) submit-btn Bd(n) Bdrsbend(2px) Bdrstend(2px) D(b) H(100%) M(0) P(0) rapid-noclick-resp W(100%)" data-ylk="elm:btn;elmt:srch;itc:0;rspns:nav;sec:srch;slk:srchweb;t1:a1;t2:srch;tar:uk.search.yahoo.com;tar_uri:/search" type="submit" aria-label="Search" data-rapid_p="3" data-v9y="1"><svg class="Cur(p)" width="24" style="stroke-width:0;fill:#fff;stroke:#fff;vertical-align:bottom" height="24" viewBox="0 0 24 24" data-icon="search"><path d="M9 3C5.686 3 3 5.686 3 9c0 3.313 2.686 6 6 6s6-2.687 6-6c0-3.314-2.686-6-6-6m13.713 19.713c-.387.388-1.016.388-1.404 0l-7.404-7.404C12.55 16.364 10.85 17 9 17c-4.418 0-8-3.582-8-8 0-4.42 3.582-8 8-8s8 3.58 8 8c0 1.85-.634 3.55-1.69 4.905l7.403 7.404c.39.386.39 1.015 0 1.403"></path></svg></button>
+</div>
+
+<div class="button"></div>
+<div class="nav--right">
+  <ul >
+    <li>Enter</li>
+    <li><svg class="Pos(a) Start(2px) T(4px) Cur(p)" width="26" style="fill:#6001d2;stroke:#6001d2;stroke-width:0;vertical-align:bottom" height="26" viewBox="0 0 24 27" data-icon="bell-fill"><path d="M23.258 20.424c-.09-.07-.81-.662-1.394-1.7-.114-.2-.45-.914-.503-1.06-.143-.39-.243-.864-.398-1.543-.367-2.33-.34-5.656-.34-5.656 0-.076.003-.15.003-.226 0-4.07-2.926-7.465-6.825-8.28v-.19C13.8.788 12.994 0 12 0s-1.8.79-1.8 1.768v.19c-3.897.815-6.822 4.21-6.822 8.28 0 .076.002.15.004.226 0 0 .023 3.325-.344 5.657-.155.68-.255 1.154-.4 1.545-.053.145-.388.86-.502 1.06-.583 1.037-1.304 1.63-1.394 1.7-.315.24-.452.425-.452.425-.18.227-.29.51-.29.82C0 22.406.607 23 1.354 23c.037 0 .073-.004.11-.005h21.07c.037 0 .075.005.112.005.747 0 1.354-.596 1.354-1.33 0-.308-.108-.593-.29-.82 0 0-.137-.184-.452-.426zM12 27c1.657 0 3-1.343 3-3H9c0 1.657 1.343 3 3 3z"></path></svg></li>
+    <li><svg class="Mstart(-21px) Mend(6px) Mstart(-11px)--sm1024 Cur(p)" width="28" style="fill:#6001d2;stroke:#6001d2;stroke-width:0;vertical-align:bottom" height="28" viewBox="0 0 512 512" data-icon="NavMail"><path d="M460.586 91.31H51.504c-10.738 0-19.46 8.72-19.46 19.477v40.088l224 104.03 224-104.03v-40.088c0-10.757-8.702-19.478-19.458-19.478M32.046 193.426V402.96c0 10.758 8.72 19.48 19.458 19.48h409.082c10.756 0 19.46-8.722 19.46-19.48V193.428l-224 102.327-224-102.327z"></path></svg></li>
+    <li>Mail</li>
+    </ul>
+</div>
+<nav>
+<ul >
+<li><svg class="Mstart(-21px) Mend(6px) Mstart(-11px)--sm1024 Cur(p)" width="28" style="fill:#6001d2;stroke:#6001d2;stroke-width:0;vertical-align:bottom" height="28" viewBox="0 0 512 512" data-icon="NavMail"><path d="M460.586 91.31H51.504c-10.738 0-19.46 8.72-19.46 19.477v40.088l224 104.03 224-104.03v-40.088c0-10.757-8.702-19.478-19.458-19.478M32.046 193.426V402.96c0 10.758 8.72 19.48 19.458 19.48h409.082c10.756 0 19.46-8.722 19.46-19.48V193.428l-224 102.327-224-102.327z"></path></svg></li>
+<li>Coronavarius</li>
+<li>News</li>
+<li>Sport</li>
+<li>At Home</li>
+</ul>
+</nav>
+<div class="ads">
+<img src="./image/asd.jpg" alt='' />
+</div>
+</header>
+
+<!--START MAIN-->
+<main>
+<div class="slide">
+  <div class="slide__avatar">
+  <img src="./image/slide.jpg" alt="Avatar" / >
+  </div>
+  <div class="slide__text">
+  <strong>Best movie Fast Fiorous 9</strong>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Blanditiis nulla voluptatem excepturi iure laborum nesciunt! 
+    Corporis facilis reiciendis maxime veritatis consequatur 
+    quisquam in tempora dolorem qui architecto, quos, illo 
+    error! </p>
+  </div>
+
+  <div class="slide__thumb">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  </div>
+</div>
+<div class="news">
+<div class="news__img">
+<img src="./image/news-1.jpeg" alt="News-1" / >
+</div>
+<div class="news__text">
+  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Nihil, ipsum molestiae nisi reprehenderit quisquam labore 
+    consequatur quaerat, quam cumque, eaque ratione. Qui 
+    adipisci, neque consectetur pariatur harum quia quod 
+    cupiditate.</p>
+</div>
+
+<div class="news__icon">
+  <i class="fas fa-comment"></i>
+</div>
+
+</div>
+</main>
+<!--END MAIN-->
+<aside>
+
+</aside>
+<footer></footer>
 </div>
 </body>
 </html>
